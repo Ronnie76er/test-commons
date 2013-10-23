@@ -12,4 +12,3 @@ libraryDependencies ++= Seq(
 publishTo := Some(Resolver.file("file",  new File(Path.userHome.absolutePath+"/Projects/tools")))
 
 releaseSettings
-
