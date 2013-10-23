@@ -9,6 +9,6 @@ libraryDependencies ++= Seq(
      "joda-time" % "joda-time" % "2.3"
 )
 
-publishTo := Some(Resolver.file("file",  new File(Path.userHome.absolutePath+"/Projects/tools")))
+publishTo := Some(Resolver.file("file",  new File(Path.userHome.absolutePath+"/Projects/test-repo")))
 
 releaseSettings
