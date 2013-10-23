@@ -1,6 +1,8 @@
 import sbtrelease._
 import ReleaseStateTransformations._
 
+organization := "konciergemd"
+
 name := "test-api"
 
 libraryDependencies ++= Seq(
